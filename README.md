@@ -14,10 +14,6 @@
 * [Background](#background)
 * [Features](#features)
 * [Technologies Used](#technologies-used)
-* [Setup](#setup)
-* [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 
@@ -49,27 +45,10 @@ A website showcasing me and some of my work. This project is simply a personal w
 
 
 
-## Setup
-
-N/A
-
-<hr></hr>
-
-## Usage
-
-Personable to get to know me! Info included so you can reach out as well.
 
 
 
-<hr></hr>
 
-## Project Status
-
-Main page is completed. 
-
-
-
-<hr></hr>
 
 ## Room for Improvement
 
