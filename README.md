@@ -1,7 +1,7 @@
 <h1 align="center">MyPortfolio</h1>
 
 
-<h3>Personal website including portfolio which uses SASS for styling </h3>
+<h3>Personal blog-style website including portfolio which uses SASS for styling </h3>
 
 <hr></hr>
 
