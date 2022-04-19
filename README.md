@@ -61,9 +61,7 @@ A website showcasing me and some of my work. This project is simply a personal w
 
 ## Acknowledgement
 
-This project idea came to mind since I did not have a website to showcase my work. I also wanted to work with SASS because I am constantly trying to improve upon my skills.
-
-
+This project idea came to mind since I did not have a website to showcase my work. 
 
 <hr></hr>
 
