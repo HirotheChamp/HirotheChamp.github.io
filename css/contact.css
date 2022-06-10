@@ -137,6 +137,10 @@ transform: translateY(-20px);
     font-size: 18px;
 }
 
+.contactForm .inputBox input[type='submit']:hover{
+background-color: #05cae4;
+}
+
 @media (max-width: 991px)
 {
     .contact{
