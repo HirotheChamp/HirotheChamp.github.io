@@ -79,6 +79,7 @@ margin-top: 30px;
     width: 40%;
     padding: 40px;
     background: #fff;
+    border-radius: 15px;
     -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
     -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
     box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
@@ -92,6 +93,11 @@ margin-top: 30px;
     position: relative;
     width: 100%;
     margin-top: 10px;
+    
+}
+
+.contactForm .inputBox .submitbutton{
+   cursor: none;
 }
 
 .contactForm .inputBox input,
@@ -135,6 +141,7 @@ transform: translateY(-20px);
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
+    border-radius: 5px;
 }
 
 .contactForm .inputBox input[type='submit']:hover{

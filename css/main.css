@@ -3,6 +3,10 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  cursor: none;
+ 
+
+ 
 }
 
 .home {
@@ -269,8 +273,8 @@
 .projects_bio-image {
   height: 30vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/performance.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/performance.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/main.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/main.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -309,6 +313,7 @@
   border-bottom: 5px solid #72e3ff;
   overflow: hidden;
   cursor: pointer;
+ 
 }
 
 .projects_item img {
@@ -358,6 +363,7 @@
   color: #000;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+ 
 }
 
 .projects_btn:hover {
@@ -423,8 +429,10 @@
   }
   .nav {
     visibility: visible;
+   
   }
   .nav .menu-nav {
+    
     display: block;
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -435,9 +443,11 @@
   .nav .menu-nav_item {
     display: inline;
     padding-right: 1.5rem;
+    
   }
   .nav .menu-nav_link {
     font-size: 1.5rem;
+    cursor: none;
   }
   .about_bio {
     font-size: 1.5rem;
@@ -485,6 +495,7 @@ body {
   height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
+  
 }
 
 h1, h2, h3 {
@@ -498,6 +509,9 @@ a {
 
 .text-secondary {
   color: #72e3ff;
+}
+.text-secondary-white {
+  color: #ffffff;
 }
 
 header {
@@ -516,12 +530,15 @@ main .social-icons {
   position: fixed;
   bottom: 1rem;
   left: 1rem;
+ 
 }
 
 main .social-icons a {
   padding: 0.4rem;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+ 
+ 
 }
 
 main .social-icons a:hover {
@@ -538,3 +555,39 @@ footer {
   color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
+
+/* cursor css */
+.cursor {
+
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2px solid  #72e3ff;
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%); 
+  pointer-events:none;
+  transition: all 0.3s ease;
+  transition-property: background, transform;
+  transform-origin: 100% 100%;
+  z-index: -1;
+  /* backdrop-filter: grayscale(); */
+ }
+
+
+.link-grow {
+  transform: scale(2);
+  background: white;
+}
+
+.link-shrink {
+  background: white;
+}
+
+.link-change {
+  background:  #72e3ff;
+}
+
+
+
+
+
