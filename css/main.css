@@ -3,7 +3,7 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  cursor: none;
+  /* cursor: none; */
  
 
  
@@ -26,13 +26,46 @@
   font-size: 5rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
+
+}
+
+.white_border {
   border-bottom: 2px solid #fff;
+  margin-bottom: 20px;
 }
 
 .home_name--last {
   color: #72e3ff;
   font-weight: 700px;
+  
 }
+
+/* slide effect in home screen */
+.slide-left.two {
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+.slide-left.three {
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+.slide-left {
+  animation: slideleft 0.7s linear forwards;
+
+}
+@keyframes slideleft {
+  0% {
+    transform: translate(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px);
+    opacity: 1;
+  }
+  
+}
+/* end of slide effect in home screen */
 
 .menu-btn {
   position: absolute;
@@ -447,7 +480,7 @@
   }
   .nav .menu-nav_link {
     font-size: 1.5rem;
-    cursor: none;
+    
   }
   .about_bio {
     font-size: 1.5rem;
@@ -554,10 +587,15 @@ footer {
   padding: 1rem;
   color: #fff;
 }
+
+
+
+
+
 /*# sourceMappingURL=main.css.map */
 
 /* cursor css */
-.cursor {
+/* .cursor {
 
   width: 2.5rem;
   height: 2.5rem;
@@ -570,11 +608,11 @@ footer {
   transition-property: background, transform;
   transform-origin: 100% 100%;
   z-index: -1;
-  /* backdrop-filter: grayscale(); */
- }
+  /* backdrop-filter: grayscale(); 
+ } 
+/*
 
-
-.link-grow {
+/* .link-grow {
   transform: scale(2);
   background: white;
 }
@@ -585,7 +623,7 @@ footer {
 
 .link-change {
   background:  #72e3ff;
-}
+} */
 
 
 

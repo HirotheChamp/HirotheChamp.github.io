@@ -12,52 +12,54 @@ let showMenu = false;
 
 
 menuBtn.addEventListener('click', toggleMenu);
-window.addEventListener('mousemove', cursor);
 
-function cursor(e){
-     mouseCursor.style.top = e.clientY + 'px';
-     mouseCursor.style.left = e.clientX + 'px';
 
-}
+// window.addEventListener('mousemove', cursor);
 
-navLinks.forEach(link => {
-    link.addEventListener('mouseleave', () => {
-        mouseCursor.classList.remove('link-grow');
-        // link.classList.remove('menu-nav-item');
-    });
+// function cursor(e){
+//      mouseCursor.style.top = e.clientY + 'px';
+//      mouseCursor.style.left = e.clientX + 'px';
 
-    link.addEventListener('mouseover', () => {
-        mouseCursor.classList.add('link-grow');
-        // link.classList.add('menu-nav-item')
-    });
+// }
 
-    projectLinks.forEach(link => {
-        link.addEventListener('mouseleave', () => {
-            mouseCursor.classList.remove('link-shrink');
+// navLinks.forEach(link => {
+//     link.addEventListener('mouseleave', () => {
+//         mouseCursor.classList.remove('link-grow');
+//         // link.classList.remove('menu-nav-item');
+//     });
+
+//     link.addEventListener('mouseover', () => {
+//         mouseCursor.classList.add('link-grow');
+//         // link.classList.add('menu-nav-item')
+//     });
+
+//     projectLinks.forEach(link => {
+//         link.addEventListener('mouseleave', () => {
+//             mouseCursor.classList.remove('link-shrink');
            
-        });
+//         });
     
-        link.addEventListener('mouseover', () => {
-            mouseCursor.classList.add('link-shrink');
+//         link.addEventListener('mouseover', () => {
+//             mouseCursor.classList.add('link-shrink');
            
-        });
+//         });
  
-    });
+//     });
 
-    inputBox.forEach(link => {
-        link.addEventListener('mouseleave', () => {
-            mouseCursor.classList.remove('link-change');
-            // link.classList.remove('menu-nav-item');
-        });
+//     inputBox.forEach(link => {
+//         link.addEventListener('mouseleave', () => {
+//             mouseCursor.classList.remove('link-change');
+//             // link.classList.remove('menu-nav-item');
+//         });
     
-        link.addEventListener('mouseover', () => {
-            mouseCursor.classList.add('link-change');
-            // link.classList.add('menu-nav-item')
-        });
+//         link.addEventListener('mouseover', () => {
+//             mouseCursor.classList.add('link-change');
+//             // link.classList.add('menu-nav-item')
+//         });
 
-    });
+//     });
     
-});
+// });
 
 
 
