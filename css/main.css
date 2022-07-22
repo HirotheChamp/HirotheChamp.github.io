@@ -249,6 +249,7 @@
 
 .about_bio-image p {
   margin-bottom: 2rem;
+  color:#fff;
 }
 
 .about_bio {
@@ -1220,9 +1221,98 @@ footer {
   color: #fff;
 }
 
+/* collapsible in the about me section */
+.collapsible {
+  max-width: 1000px;
+  overflow: hidden;
+  font-weight: 500;
+  display: flex;
+ justify-content: center;
+  
+}
 
+.collapsible input {
+ display: none; 
+}
 
+.collapsible label {
+  position: relative;
+  font-weight: 600;
+  background:#414141;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1), o 4px 11px 0 rgba(0, 0, 0, .08);
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  z-index: 1;
 
+}
+
+.collapsible label:after {
+  content: "";
+  position:absolute;
+  right: 15px;
+  top: 15px;
+  width: 18px;
+  height: 18px;
+  background: url() no-repeat 0 0;
+  transition: all 0.3 ease;
+}
+
+.collapsible input:checked + label::after {
+  transform: rotate(90deg);
+}
+
+.collapsible-text {
+  max-height: 1px;
+  overflow: hidden;
+  border-radius: 4px;
+  line-height: 1.4;
+  position: relative;
+  top: -100%;
+  opacity: 0.5;
+  transition: all 0.3 ease;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+}
+
+.collapsible input:checked ~ .collapsible-text{
+  max-height: 300px;
+  padding-bottom: 25px;
+  background:#414141;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1), o 4px 11px 0 rgba(0, 0, 0, .08);
+  opacity: 1;
+  top: 0;
+}
+
+.collapsible-text h2 {
+  margin-bottom: 10px;
+  padding: 15px 15px 0;
+  color: #72e3ff;
+}
+
+.collapsible-text p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.collapsible-text::-webkit-scrollbar-track {
+     
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+
+.collapsible-text::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f5f5f5;
+}
+
+.collapsible-text::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #72e3ff;
+}
 
 /*# sourceMappingURL=main.css.map */
 
