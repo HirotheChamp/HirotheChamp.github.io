@@ -20,7 +20,7 @@
 <hr></hr>
 
 ## Background
-A website showcasing me and some of my work. This project is simply a personal website regarding who I am and what I do.   
+A website showcasing me and some of my work. This project is simply a personal website regarding who I am and what I do. Included are coding projects mainly done using the React library.  
 
 
 
@@ -61,7 +61,7 @@ A website showcasing me and some of my work. This project is simply a personal w
 
 ## Acknowledgement
 
-This project idea came to mind since I did not have a website to showcase my work. 
+This project idea came to mind since I did not have a website to showcase my work. I wanted a website with mobile functionality as well.
 
 <hr></hr>
 
