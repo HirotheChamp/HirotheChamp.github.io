@@ -52,8 +52,8 @@ A website showcasing me and some of my work. This project is simply a personal w
 
 ## Room for Improvement
 
-* Code will be tested more thoroughly to prevent mistakes
-* Files and folders will be labeled and organized far superior in the future
+* Code will be tested more thoroughly to prevent mistakes and test for bugs
+
 
 
 
