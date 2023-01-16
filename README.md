@@ -28,7 +28,7 @@ A website showcasing me and some of my work. This project is simply a personal w
 <hr></hr>
 
 ## Features
-* Clickable drop-down menu with clean SASS implementation.
+* Clickable drop-down menu with SASS implementation.
 
 
 <hr></hr>
